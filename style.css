@@ -19,13 +19,13 @@ ul {
 span {
   color: #0065fe;
 }
+.colored-bckgrnd {
+  background-image: linear-gradient(to bottom right, #f7f6f2, #fff);
+  width: 100%;
+}
 .container {
   max-width: 1440px;
   margin: 0 auto;
-}
-.added {
-  background-image: linear-gradient(to bottom right, #f7f6f2, #fff);
-  min-width: 100%;
 }
 header {
   width: 100%;
@@ -594,6 +594,8 @@ form input::placeholder {
 .faqs {
   display: flex;
   justify-content: center;
+  margin-top: -1088px;
+  margin-bottom: 76px;
 }
 .faqs-inner {
   display: block;
